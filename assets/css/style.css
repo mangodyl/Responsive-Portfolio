@@ -1,0 +1,174 @@
+
+* {
+    box-sizing: border-box;
+
+  }
+
+.all-content {
+    max-width: 960px;
+    margin: 0 auto;
+    color: black;
+}
+
+body {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/folk-pattern-black.png");
+    margin: 0;
+   
+}
+
+h1 {
+    font-family: 'Georgia', Times, serif;
+    margin-left: 110px;
+}
+
+.page-title  {
+    font-size: 300%;
+    border-bottom: 5px solid black;
+    width: 700px;
+}
+
+.button-nav {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nav-links {
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+#nav-contact {
+    border-left: 1px solid slategray;
+}
+
+#nav-portfolio {
+    border-left: 1px solid slategray;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 80px;
+    border-bottom: 5px solid black;
+    z-index: 1;
+}
+
+.control-name {
+    color: aliceblue;
+    background-color: black;
+    float: left;
+    padding: 25px 20px 15px 20px;
+    margin-left: 363px;
+    margin-top: 0;
+    border: 2px solid black;
+}
+
+#content-index {
+     margin-top: 180px;
+     margin-bottom: 80px;
+     padding: 20px;
+     background-color: lightsteelblue;
+     border: 3px solid black;
+}
+
+#content-contact {
+    margin-top: 180px;
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    border: 3px solid black;
+}
+
+#content-portfolio {
+    margin-top: 180px;
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    border: 3px solid black;
+}
+
+#profile-pic {
+    float: left;
+    border-radius: 5%;
+    max-width: 50%;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 8px 0px 1px 0px;
+    background-color: slategray;
+    font-size: 75%;
+    border-top: 4px solid #4aaaa5;
+    color: aliceblue;
+
+}
+
+form {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.input-forms {
+    padding: 6px;
+    font-size: 100%;
+    width: 100%;
+}
+
+#message-form {
+    height: 150px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover { 
+    background-color: #357975;
+}
+
+.portfolio-image {
+    margin: 50px;
+    cursor: pointer;
+}
+
+.portfolio-image:hover {
+    box-shadow: #357975;
+}
+
+.container1, .container2, .container3, .container4 {
+    position: relative;
+    display: inline-block;
+}
+
+.text-block {
+    position: absolute;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 50px;
+    left: 50px;
+    cursor: pointer;
+}
+
+
