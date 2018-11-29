@@ -177,6 +177,8 @@ input[type=submit]:hover {
         position: static;  
         width: 100%; 
     }
+
+    
     
 }
 
@@ -197,6 +199,10 @@ input[type=submit]:hover {
 
     h1 {
         margin-left: 0px;
+    }
+
+    #content-contact, #content-portfolio, #content-index {
+        max-width: 600px;
     }
 
 }
