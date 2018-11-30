@@ -4,10 +4,15 @@
 
   }
 
+  html {
+      height: 100%;
+  }
+
 .all-content {
     max-width: 960px;
     margin: 0 auto;
     color: black;
+    min-height: calc(100vh - 38px);
 }
 
 body {
@@ -15,6 +20,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url("../images/folk-pattern-black.png");
     margin: 0;
+    height: 100%;
    
 }
 
@@ -103,6 +109,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+
 footer {
     text-align: center;
     width: 100%;
@@ -112,6 +119,7 @@ footer {
     font-size: 75%;
     border-top: 4px solid #4aaaa5;
     color: aliceblue;
+    height: 38px;
 
 }
 
@@ -171,6 +179,8 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
+
+
 @media screen and (max-width: 640px) {
 
     .nav-bar {
@@ -203,6 +213,7 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 768px) {
 
+    
 }
     
 
@@ -220,8 +231,13 @@ input[type=submit]:hover {
         margin-left: 0px;
     }
 
+    footer {
+        margin-bottom: 0;
+    }
+
     #content-contact, #content-portfolio, #content-index {
-        max-width: 600px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
